@@ -21,6 +21,22 @@
   ],
   "author": "doron nahum",
   "license": "ISC",
+  "dependencies": {
+    "react": "^15.3.2",
+    "moment": "^2.17.1",
+    "qs": "^6.4.0",
+    "react-datepicker": "^0.44.0",
+    "react-json-edit": "^0.2.7",
+    "react-select": "^1.0.0-rc.3",
+    "react-table": "^5.5.1",
+    "react-tagsinput": "^3.16.1",
+    "react-telephone-input": "^4.0.1",
+    "react-autosuggest": "^7.1.0",
+    "react-draggable": "^2.2.3",
+    "dateformat": "^1.0.12",
+    "react-bootstrap": "^0.30.2",
+    "font-awesome": "^4.6.3"
+  },
   "bugs": {
     "url": "https://github.com/doronnahum/reactgeneric/issues"
   },

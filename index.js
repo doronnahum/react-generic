@@ -1,3 +1,28 @@
-exports.printMsg = function() {
-  console.log("This is a message from the demo package");
-}
+import {    
+    Field,
+    DateField,
+    StringField,
+    NumberField,
+    TelephoneField,
+    ArrayField,
+    FileField,
+    PointerField,
+    SpecialPointer} from './FieldWithEdit';
+import GenericForm from './GenericForm';
+import GenericTable from './GenericTable';
+
+
+
+export {
+    Field,
+    DateField,
+    StringField,
+    NumberField,
+    TelephoneField,
+    ArrayField,
+    FileField,
+    PointerField,
+    SpecialPointer,
+    GenericForm,
+    GenericTable
+};
