@@ -1,0 +1,28 @@
+{
+  "name": "react-generic",
+  "version": "1.0.0",
+  "description": "Use it for easy field with edit mode for String, Number, Array , Date , Telephone , File UpLoad , Pointer , Array of Pointers and more, and for Fast Table/Form With edit mode InLine/PopUp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doronnahum/reactgeneric.git"
+  },
+  "keywords": [
+    "react",
+    "table",
+    "form",
+    "input",
+    "tags-input",
+    "array-input",
+    "date-input"
+  ],
+  "author": "doron nahum",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/doronnahum/reactgeneric/issues"
+  },
+  "homepage": "https://github.com/doronnahum/reactgeneric#readme"
+}
