@@ -24,10 +24,10 @@ handlePointerClick={handlePointerClick}
 
 | Props  | Type | Default value  | explain |
 | ------------- | ------------- | ------------- | ------------- |
-| Row  | Object  | String  |   |
-| Value  | String ,Array, Pointer, Boolean ,Number   |   |   |
-| Name  | String  |   |  |
-| handleSubmit  | function  |  | On Save button click this function run with object of data:
+| Row  | Object  | String  | -  |
+| Value  | String ,Array, Pointer, Boolean ,Number   | -  | -  |
+| Name  | String  |  - | - |
+| handleSubmit  | function  | - | On Save button click this function run with object of data:
 {name: 'fieldName',
 objectId: 'objectId',
 Value: 'the new value',
@@ -35,10 +35,10 @@ oldValue: 'oldValue ',
 row :'Row Data'
 }
   |
-| config  | object  |  | The options for each type are different, look at Field Configuration by type , this is the place to set specific option for the field  |
-| defaultConfiguration  | object  |   | Use this for config your all field by type  |
-| handlePointerClick  | function  |   | When user click on the pointer button this function run with pointer value  |
-| getPointerOptions  | function  |  | When user open the pointer drop down this function need to return call back like this:
+| config  | object  | - | The options for each type are different, look at Field Configuration by type , this is the place to set specific option for the field  |
+| defaultConfiguration  | object  | -  | Use this for config your all field by type  |
+| handlePointerClick  | function  |  - | When user click on the pointer button this function run with pointer value  |
+| getPointerOptions  | function  | - | When user open the pointer drop down this function need to return call back like this:
               return   callback(null, {
                 options: [
                 { value:{__type :"Pointer",className: dataClassName,objectId: obj.objectId}
