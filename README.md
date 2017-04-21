@@ -1,15 +1,15 @@
 # react-generic
 With react-generic you can print quickly a -
-1) GenericField- Input Field With Edit Mode InLine/Popup for numbers of fields Type:
-    1.1 String - With Validate
-    1.2 Number- With Validate
-    1.3 Array- With Validate, Tags Mode, JSON Mode, autocomplete
-    1.4 Date- Select Date From Calendar 
-    1.5 Pointer- Get Data To Drop Down From API
-    1.6 Telephone - With Auto autocomplete , flagsImage
-Each field with OnSave CallBack
-2)GenericTable- - Pass Data props + Schema Props and get beautiful react-table with all field in EditMode by One Click
-3)GenericForm - Pass Data props + Schema Props and get beautiful Form with all field in EditMode by One Click
+1) GenericField- Input Field With Edit Mode InLine/Popup for numbers of fields Type: <br />
+    1.1 String - With Validate.
+    1.2 Number- With Validate.
+    1.3 Array- With Validate, Tags Mode, JSON Mode, autocomplete.
+    1.4 Date- Select Date From Calendar .
+    1.5 Pointer- Get Data To Drop Down From API.
+    1.6 Telephone - With Auto autocomplete , flagsImage.
+Each field with OnSave CallBack.
+2.GenericTable- - Pass Data props + Schema Props and get beautiful react-table with all field in EditMode by One Click
+3.GenericForm - Pass Data props + Schema Props and get beautiful Form with all field in EditMode by One Click
 
 How To Start
 --------------------------
