@@ -21,7 +21,7 @@
     "array-input",
     "date-input"
   ],
-  "author": "doron nahum <doron.nahum@gmail.com>",
+  "author": "doron nahum",
   "license": "ISC",
   "dependencies": {
     "react": "^15.3.2",
