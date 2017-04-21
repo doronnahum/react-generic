@@ -7,6 +7,8 @@ With react-generic you can print quickly a Field, Table, Form<br />
     1.4 Date- Select Date From Calendar .<br />
     1.5 Pointer- Get Data To Drop Down From API.<br />
     1.6 Telephone - With Auto autocomplete , flagsImage.<br />
+    1.7 File - DragAndDrop File Upload , Show image/Video In the field .<br />
+    1.6 Telephone - With Auto autocomplete , flagsImage.<br />
 Each field with OnSave CallBack.<br />
 2. GenericTable- - Pass Data props + Schema Props and get beautiful react-table with all field in EditMode by One Click<br />
 3. GenericForm - Pass Data props + Schema Props and get beautiful Form with all field in EditMode by One Click<br />
