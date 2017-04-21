@@ -86,7 +86,7 @@ YOU CAN LOOK/COPY  CONFIG OPTIONS FROM THIS LINK:
 DefaultConfiguration:
 -----------------
 Set DefaultConfiguration for GenericTable/GenericForm 
-![alt tag](https://raw.githubusercontent.com/doronnahum/react-generic/master/pic/defaultConfig.JPG<br />
+![alt tag](https://raw.githubusercontent.com/doronnahum/react-generic/master/pic/defaultConfig.JPG)<br />
 YOU CAN LOOK/COPY  CONFIG OPTIONS FROM THIS LINK: 
 [a link](https://github.com/doronnahum/react-generic/blob/master/defaultConfiguration.md)
 
