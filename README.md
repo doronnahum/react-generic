@@ -1,9 +1,22 @@
-# reactgeneric
-Use it for easy field with edit mode for String, Number, Array , Date , Telephone , File UpLoad , Pointer , Array of Pointers and more, and for Fast Table/Form With edit mode InLine/PopUp
+# react-generic
+With react-generic you can print quickly a -
+1) GenericField- Input Field With Edit Mode InLine/Popup for numbers of fields Type:
+    1.1 String - With Validate
+    1.2 Number- With Validate
+    1.3 Array- With Validate, Tags Mode, JSON Mode, autocomplete
+    1.4 Date- Select Date From Calendar 
+    1.5 Pointer- Get Data To Drop Down From API
+    1.6 Telephone - With Auto autocomplete , flagsImage
+Each field with OnSave CallBack
+2)GenericTable- - Pass Data props + Schema Props and get beautiful react-table with all field in EditMode by One Click
+3)GenericForm - Pass Data props + Schema Props and get beautiful Form with all field in EditMode by One Click
 
-1) field - Use Field for show Input text with edit mode for different type of fields: String, Number, Object, Date, Pointer, File, and Array of Pointers 
-2) GenericTable - Pass data and schema and get table with edit mode for each column  
-3) GenericForm - Pass data and schema and get form with edit mode for each field  
+How To Start
+--------------------------
+1) install with npm, run in the command line: npm install generic-table --save
+2) import The package to your page:  import {GenericTable , GenericForm , Field } from 'react-generic';  
+3) import the Style.css to your app.css: @import '~react-generic/style.css';
+
 
 Generic field
 -----------------
@@ -52,3 +65,6 @@ handlePointerClick={handlePointerClick}
 |                                                                                                                                                     |                                         |               | type:"Pointer",                                                                                                                       |
 |                                                                                                                                                     |                                         |               | }                                                                                                                                     |
 |                                                                                                                                                     |                                         |               |                                                                                                                                       |
+
+*You can use Field and Set The Type or, Use directly with the specific type by import Specific Type:
+import {DateField,StringField,NumberField,TelephoneField,ArrayField,FileField,PointerField,SpecialPointer} from 'react-generic'

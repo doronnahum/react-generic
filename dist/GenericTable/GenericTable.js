@@ -116,29 +116,31 @@ var GenericTable = (function (_React$Component) {
                 //defaultFilterMethod={(filter) => (//console.log('filter',filter)) }
                 getTrProps: function (state, rowInfo, column, instance) {
                     //On Row Click
-                    var row = rowInfo.row;
-                    return {
-                        style: {
-                            backgroundColor: row[rowId] == _this2.state.selectedRow ? '#303030' : 'initial'
-                        },
-                        onClick: function onClick(e) {
-                            var row = rowInfo.row;
-                            if (!row) {
-                                return;
-                            }
-                            if (row[rowId] == _this2.state.selectedRow) {
-                                _this2.setState({ selectedRow: null });
-                                if (onRowSelectd) {
-                                    onRowSelectd(null);
+                    if (rowInfo) {
+                        var row = rowInfo.row;
+                        return {
+                            style: {
+                                backgroundColor: row[rowId] == _this2.state.selectedRow ? '#303030' : 'initial'
+                            },
+                            onClick: function onClick(e) {
+                                var row = rowInfo.row;
+                                if (!row) {
+                                    return;
                                 }
-                            } else {
-                                _this2.setState({ selectedRow: row[rowId] });
-                                if (onRowSelectd) {
-                                    onRowSelectd(row);
+                                if (row[rowId] == _this2.state.selectedRow) {
+                                    _this2.setState({ selectedRow: null });
+                                    if (onRowSelectd) {
+                                        onRowSelectd(null);
+                                    }
+                                } else {
+                                    _this2.setState({ selectedRow: row[rowId] });
+                                    if (onRowSelectd) {
+                                        onRowSelectd(row);
+                                    }
                                 }
                             }
-                        }
-                    };
+                        };
+                    }
                 },
                 data: data, columns: this.buildColumns.call(this, fields, handleSubmitFromField, fieldsConfiguration, defaultConfiguration, handlePointerClick, getPointerOptions) });
         }
