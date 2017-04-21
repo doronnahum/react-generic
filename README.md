@@ -1,22 +1,24 @@
 # react-generic
 With react-generic you can print quickly a -<br />
-1) GenericField- Input Field With Edit Mode InLine/Popup for numbers of fields Type: <br />
+1. GenericField- Input Field With Edit Mode InLine/Popup for numbers of fields Type: <br />
     1.1 String - With Validate.<br />
     1.2 Number- With Validate.<br />
     1.3 Array- With Validate, Tags Mode, JSON Mode, autocomplete.<br />
     1.4 Date- Select Date From Calendar .<br />
     1.5 Pointer- Get Data To Drop Down From API.<br />
     1.6 Telephone - With Auto autocomplete , flagsImage.<br />
-Each field with OnSave CallBack.<br />
+Each field with OnSave CallBack.
 2.GenericTable- - Pass Data props + Schema Props and get beautiful react-table with all field in EditMode by One Click<br />
 3.GenericForm - Pass Data props + Schema Props and get beautiful Form with all field in EditMode by One Click<br />
-<br />
-How To Start
---------------------------
-1) install with npm, run in the command line: npm install generic-table --save
-2) import The package to your page:  import {GenericTable , GenericForm , Field } from 'react-generic';  
-3) import the Style.css to your app.css: @import '~react-generic/style.css';
 
+How To Start
+----------------------------------------------------------------------------------------------------------------------------------<br />
+1. install with npm, run in the command line: npm install generic-table --save<br />
+2. import The package to your page:  import {GenericTable , GenericForm , Field } from 'react-generic';  <br />
+3. import the Style.css to your app.css: @import '~react-generic/style.css';<br />
+
+pictures:
+![alt tag](https://raw.githubusercontent.com/doronnahum/react-generic/pic/table.JPG)
 
 Generic field
 -----------------
