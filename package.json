@@ -10,7 +10,7 @@
   
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/doronnahum/reactgeneric.git"
+    "url": "git+https://github.com/doronnahum/react-generic.git"
   },
   "keywords": [
     "react",
@@ -21,7 +21,7 @@
     "array-input",
     "date-input"
   ],
-  "author": "doron nahum",
+  "author": "doron nahum <doron.nahum@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "react": "^15.3.2",
