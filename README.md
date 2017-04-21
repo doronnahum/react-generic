@@ -20,11 +20,11 @@ How To Start
 3. import the Style.css to your app.css: @import '~react-generic/style.css';<br />
 
 Some Of The Fields ScreenShot:
-![alt tag](https://github.com/doronnahum/react-generic/blob/master/pic/fields.jpg)<br />
+![alt tag](https://raw.githubusercontent.com/doronnahum/react-generic/master/pic/fields.jpg)<br />
 Generic Table ScreenShot:
-![alt tag](https://github.com/doronnahum/react-generic/blob/master/pic/table.JPG)<br />
+![alt tag](https://raw.githubusercontent.com/doronnahum/react-generic/master/pic/table.JPG)<br />
 Generic Form ScreenShot:
-![alt tag](https://github.com/doronnahum/react-generic/blob/master/pic/Form.JPG)<br />
+![alt tag](https://raw.githubusercontent.com/doronnahum/react-generic/master/pic/Form.JPG)<br />
 
 Generic field
 -----------------
@@ -79,14 +79,14 @@ import {DateField,StringField,NumberField,TelephoneField,ArrayField,FileField,Po
 
 Field Configuration by type:
 -----------------
-![alt tag](https://github.com/doronnahum/react-generic/blob/master/pic/FieldConfiguratio.jpg)<br />
+![alt tag](https://raw.githubusercontent.com/doronnahum/react-generic/master/pic/FieldConfiguratio.jpg)<br />
 YOU CAN LOOK/COPY  CONFIG OPTIONS FROM THIS LINK: 
 [a link](https://github.com/doronnahum/react-generic/blob/master/fieldConfiguration.md)
 
 DefaultConfiguration:
 -----------------
 Set DefaultConfiguration for GenericTable/GenericForm 
-![alt tag](https://github.com/doronnahum/react-generic/blob/master/pic/defaultConfig.JPG<br />
+![alt tag](https://raw.githubusercontent.com/doronnahum/react-generic/master/pic/defaultConfig.JPG<br />
 YOU CAN LOOK/COPY  CONFIG OPTIONS FROM THIS LINK: 
 [a link](https://github.com/doronnahum/react-generic/blob/master/defaultConfiguration.md)
 
