@@ -76,3 +76,60 @@ handlePointerClick={handlePointerClick}<br />
 
 *You can use Field and Set The Type or, Use directly with the specific type by import Specific Type:
 import {DateField,StringField,NumberField,TelephoneField,ArrayField,FileField,PointerField,SpecialPointer} from 'react-generic'
+
+Field Configuration by type:
+-----------------
+![alt tag](https://github.com/doronnahum/react-generic/blob/master/pic/FieldConfiguratio.jpg)<br />
+YOU CAN LOOK/COPY  CONFIG OPTIONS FROM THIS LINK: 
+[a link](https://github.com/doronnahum/react-generic/blob/master/fieldConfiguration.md)
+
+DefaultConfiguration:
+-----------------
+Set DefaultConfiguration for GenericTable/GenericForm 
+![alt tag](https://github.com/doronnahum/react-generic/blob/master/pic/defaultConfig.JPG<br />
+YOU CAN LOOK/COPY  CONFIG OPTIONS FROM THIS LINK: 
+[a link](https://github.com/doronnahum/react-generic/blob/master/defaultConfiguration.md)
+
+
+Generic Table
+-----------------
+
+Pass Data props + Schema Props and get beautiful react-table with all field in EditMode by One Click <br />
+
+import {GenericTable} from 'react-generic';  <br />
+
+<GenericTable  <br />
+    data ={this.data} <br />
+    dataClassName={dataClassName} <br />
+    fields={this.schemaFields} <br />
+    countResults={countResults} <br />
+    handleSubmitFromField={::this.handleSubmitFromField} <br />
+    getPointerOptions={::this.getPointerOptions} <br />
+    handlePointerClick={::this.handlePointerClick} <br />
+    fieldsConfiguration={this.fieldsConfiguration} <br />
+    defaultConfiguration={this.defaultConfiguration} <br />
+    defaultPageSize={`${countResults < 20 ? countResults : 20}`} <br />
+    loading={false} <br />
+    onRowSelectd={::this.onRowSelectd} <br />
+/ > <br />
+
+Generic Form
+-----------------
+
+Pass Data props + Schema Props and get beautiful Form with all field in EditMode by One Click <br />
+
+import {GenericForm } from 'react-generic';  <br />
+
+<GenericForm <br />
+    data ={this.data}<br />
+    dataClassName={dataClassName}<br />
+    fields={this.schemaFields}<br />
+    handleSubmitFromField={::this.handleSubmitFromField}<br />
+    getPointerOptions={::this.getPointerOptions}<br />
+    handlePointerClick={::this.handlePointerClick}<br />
+    fieldsConfiguration={this.fieldsConfiguration}<br />
+    defaultConfiguration={this.defaultConfiguration}<br />
+    loading={false}<br />
+/ ><br />
+
+
