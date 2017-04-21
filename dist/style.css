@@ -1,0 +1,352 @@
+@import url("./node_modules/react-table/react-table.css");
+@import url("./node_modules/react-tagsinput/react-tagsinput.css");
+@import url("./node_modules/react-datepicker/dist/react-datepicker.css");
+@import url("./node_modules/react-select/dist/react-select.css");
+@import url("./node_modules/react-telephone-input/css/default.css");
+
+
+.GenericTableWrapper {
+  padding: 30px;
+}
+.GenericTableWrapper .react-tagsinput {
+  width: 90%;
+}
+
+.GenericForm .fieldRow {
+  background: #303030;
+  margin: 10px 0;
+  padding: 15px;
+  max-width: 650px;
+  color: #dfc599;
+  min-height: 45px;
+  border-top: 1px solid #454545;
+}
+.GenericForm .fieldLabel {
+  font-weight: 700;
+  color: #d5d5d5;
+  float: left;
+  margin-right: 15px;
+}
+.GenericForm .imageInEditField {
+  text-align: left;
+  margin-bottom: 0px;
+}
+.GenericForm .imageInEditField img {
+  height: 150px;
+}
+.GenericForm .inLineEdit {
+  padding: 3px;
+  text-align: center;
+  background: #1b1b1b;
+  margin-top: 25px;
+  padding: 15px;
+}
+.GenericForm .wrapper {
+  text-align: left;
+}
+
+.inLineEdit {
+  background: green;
+}
+
+.GenericTable .ReactTable {
+  border: 1px solid #dfc589;
+}
+.GenericTable .ReactTable .rt-thead .rt-th {
+  border-right: 1px solid #1b1b1b;
+  background: #dfc589;
+}
+.GenericTable .ReactTable .rt-tbody .rt-tr-group {
+  border-bottom: 1px solid #dfc589 !important;
+}
+.GenericTable .ReactTable .rt-tbody .rt-td {
+  border-right: 1px solid #303030 !important;
+  color: #dfc589;
+}
+.GenericTable .ReactTable .-pagination {
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
+  background: #dfc589;
+}
+
+.popover-content {
+  padding: 10px 15px 0px 15px !important;
+}
+
+.popover.left,
+.popover.bottom {
+  background: #1b1b1b !important;
+  box-shadow: 0px 0px 4px 0px !important;
+}
+.popover.left .btn-success,
+.popover.bottom .btn-success {
+  color: #fff;
+  background-color: #dfc589;
+  border-color: #dfc589;
+  width: 100%;
+  font-size: 1.2em;
+}
+.popover.left .btn-success:hover,
+.popover.bottom .btn-success:hover {
+  color: black;
+  background-color: #dfc589;
+  border-color: #dfc589;
+}
+
+.popover.left > .arrow,
+.popover.bottom > .arrow {
+  border-left-color: #4e4e4e !important;
+}
+
+.popover.left > .arrow:after,
+.popover.bottom > .arrow:after {
+  border-left-color: #1b1b1b !important;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.floatRight {
+  float: right;
+}
+
+.floatLeft {
+  float: left;
+}
+
+.editPencil {
+  opacity: 0.3;
+}
+.editPencil:hover {
+  opacity: 1;
+}
+
+.editDatePopUp {
+  position: absolute;
+  z-index: 1060;
+  padding: 1px;
+  text-align: left;
+  text-align: start;
+  font-size: 13px;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #262626;
+  border-radius: 4px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.noBorder {
+  border: 0px;
+}
+
+.editMode {
+  position: absolute;
+  background: #1b1b1b;
+  padding: 5px;
+  z-index: 10000000000000;
+  box-shadow: 0px 0px 6px 0px;
+  border: 1px solid #303030;
+  border-radius: 5px;
+}
+
+.p-l-15 {
+  padding-left: 15px;
+}
+
+.editTelephone .form-control {
+  color: black;
+}
+
+.downloadFile {
+  padding-top: 10px;
+  padding-bottom: 0px;
+  margin-bottom: -10px;
+}
+.downloadFile .wrapper {
+  background: #303030;
+  padding: 7px;
+  color: #dfc599;
+  border-radius: 5px;
+  border: 1px solid #dfc589;
+}
+.downloadFile .icon {
+  color: #dfc599;
+  padding-left: 5px;
+}
+
+.imageInEditField {
+  text-align: center;
+  margin-bottom: -10px;
+}
+.imageInEditField img {
+  max-width: 100%;
+  height: 50px;
+  border: 1px solid #dfc589;
+}
+
+.dropzoneFile {
+  border-width: 1px;
+  border-style: dashed;
+  margin-bottom: 5px;
+  padding: 5px;
+  padding-bottom: 30px;
+  cursor: pointer;
+  box-shadow: inset 0px 0px 10px 0px #dfc599;
+  border-color: #dfc599;
+  background: rgba(48, 48, 48, 0.63);
+  color: #dfc599;
+}
+
+.audioInTable,
+.videoInTable {
+  max-width: 100%;
+}
+
+.tagsEditorStyle {
+  width: 248px;
+  margin-bottom: 6px;
+  margin-top: 15px;
+}
+.tagsEditorStyle .replace {
+  color: #1b1b1b;
+  position: absolute;
+  top: -25px;
+  left: -15px;
+  width: 5px;
+  height: 20px;
+  line-height: 10px;
+  padding: 1px 13px 0 4px;
+  background: #dfc599;
+}
+.tagsEditorStyle .replace:hover {
+  color: black;
+}
+.tagsEditorStyle .react-tagsinput .react-tagsinput-tag {
+  background-color: #dfc599;
+  border: 1px solid #dfc599;
+  color: #1b1b1b;
+}
+.tagsEditorStyle .react-tagsinput .react-tagsinput-remove {
+  color: #303030;
+}
+.tagsEditorStyle .react-tagsinput .DateField input {
+  width: 240px;
+}
+
+.react-datepicker__close-icon:after {
+  background-color: transparent !important;
+  color: #1b1b1b !important;
+}
+
+.form-control {
+  color: black;
+}
+
+.popoverEdit {
+  position: fixed;
+  width: 250px;
+  background: #303030;
+  text-align: center;
+  border-top-right-radius: 2px;
+  border-top-left-radius: 2px;
+  border-top-color: #dfc589;
+  border-width: 2px 0px 0px 0px;
+  border-style: solid;
+  box-shadow: 0px 0px 4px 0px #2f2f2f;
+  z-index: 90000000000000000;
+}
+.popoverEdit .wrapper {
+  position: relative;
+  cursor: move;
+  background: #303030;
+  height: 100%;
+  z-index: 10000000000000;
+  padding: 10px 15px;
+  box-shadow: 0px 0px 3px 1px;
+}
+.popoverEdit .btn-toolbar {
+  margin-left: 0px;
+  margin-top: 10px;
+}
+
+popoverEdit.Date input {
+  margin-left: -18px;
+}
+
+.inLineEdit {
+  padding: 3px;
+  text-align: center;
+}
+.inLineEdit .Select-menu-outer {
+  position: relative;
+  z-index: 9999999999999999999999999;
+}
+
+.react-tel-input {
+  width: inherit;
+}
+
+.Select-control {
+  background: #303030;
+}
+
+.Select--multi .Select-value {
+  float: left;
+  background-color: #1b1b1b;
+  border: 1px solid #1b1b1b;
+  color: #dfc589;
+}
+
+.Select--multi .Select-value-icon {
+  border-right: 1px solid #303030;
+}
+
+.inLineEdit.Date input {
+  width: 100% !important;
+  background: rgba(255, 255, 255, 0.42);
+  display: block;
+}
+.inLineEdit.Date input .react-datepicker__close-icon:after {
+  top: 32%;
+}
+
+.jsonEditorStyle {
+  text-align: left;
+  padding-top: 15px;
+}
+.jsonEditorStyle .ArrayRow {
+  background: #1f1f1f;
+  padding: 5px;
+  border-bottom: 1px solid #525252;
+  padding-left: 5px;
+}
+.jsonEditorStyle .add-button {
+  border: none;
+  background: none;
+}
+.jsonEditorStyle .AddButton {
+  display: block !important;
+}
+.jsonEditorStyle .add-input {
+  display: block;
+  background: transparent;
+  border-style: solid;
+  border-color: #dfc589;
+  border-width: 1px 0px 1px 0px;
+  border-radius: 0;
+  margin-bottom: 5px;
+  width: 80%;
+}
+.jsonEditorStyle select {
+  width: 80%;
+  background: transparent;
+  border: 1px solid #d4bb82;
+  margin-bottom: 5px;
+  display: block !important;
+}
+.jsonEditorStyle .delete-button {
+  background: #1b1b1b;
+  border: 0px;
+  color: red;
+}

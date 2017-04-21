@@ -2,10 +2,12 @@
   "name": "react-generic",
   "version": "1.0.0",
   "description": "Use it for easy field with edit mode for String, Number, Array , Date , Telephone , File UpLoad , Pointer , Array of Pointers and more, and for Fast Table/Form With edit mode InLine/PopUp",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
+    "compile": "babel --stage 0 -d dist/ src/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/doronnahum/reactgeneric.git"
@@ -36,6 +38,16 @@
     "dateformat": "^1.0.12",
     "react-bootstrap": "^0.30.2",
     "font-awesome": "^4.6.3"
+  },
+  "devDependencies": {
+    "argg": "0.0.2",
+    "babel": "^5",
+    "babel-eslint": "^4.1.0",
+    "coveralls": "^2.11.4",
+    "eslint": "^1.2.1",
+    "istanbul": "^0.3.18",
+    "plato": "^1.5.0",
+    "tape": "^4.2.0"
   },
   "bugs": {
     "url": "https://github.com/doronnahum/reactgeneric/issues"

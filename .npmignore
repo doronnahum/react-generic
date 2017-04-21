@@ -1,0 +1,6 @@
+src/
+coverage/
+.coveralls.yml
+.travis.yml
+.gitignore
+node_modules/
