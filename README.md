@@ -18,7 +18,7 @@ How To Start
 3. import the Style.css to your app.css: @import '~react-generic/style.css';<br />
 
 pictures:
-![alt tag](https://raw.githubusercontent.com/doronnahum/react-generic/pic/table.JPG)
+![alt tag](https://github.com/doronnahum/react-generic/blob/master/pic/table.JPG)
 
 Generic field
 -----------------
