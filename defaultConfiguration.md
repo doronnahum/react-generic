@@ -1,22 +1,22 @@
-        this.defaultConfiguration = {<br />
-            fieldsWidth: 200,<br />
-            //disabledEditable : true,<br />
-            fieldsWidthByType: {<br />
-                'Date': 150,<br />
-                'Pointer': 150,<br />
-            },<br />
-            fieldsWidthByName: { //Name Is Stronger<br />
-                'objectId': 80<br />
-            },<br />
-            //onArrayDisableOnlyUniqueIsAuto : true<br />
-            setPointerTitleByPointerName: {<br />
-                Categories: 'name'<br />
-            },<br />
-            rowId: 'objectId', //default is objectId,<br />
-            disableEditInline: true, //Default is true<br />
-            disableEditInlineByType: {<br />
-                'Date': true,<br />
-            },<br />
-            fieldToHide: ['ACL']<br />
-<br />
-        }<br />
+        this.defaultConfiguration = {
+            fieldsWidth: 200,
+            //disabledEditable : true,
+            fieldsWidthByType: {
+                'Date': 150,
+                'Pointer': 150,
+            },
+            fieldsWidthByName: { //Name Is Stronger
+                'objectId': 80
+            },
+            //onArrayDisableOnlyUniqueIsAuto : true
+            setPointerTitleByPointerName: {
+                Categories: 'name'
+            },
+            rowId: 'objectId', //default is objectId,
+            disableEditInline: true, //Default is true
+            disableEditInlineByType: {
+                'Date': true,
+            },
+            fieldToHide: ['ACL']
+
+        }
